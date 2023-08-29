@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: messaging-example
+  description: A collection of all messaging example entities, except users, groups, and templates
+spec:
+  targets:
+    - ./market-place-example/messaging/all.yaml
